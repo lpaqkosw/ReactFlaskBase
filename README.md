@@ -1,4 +1,4 @@
-pip install flask
-pip install flask-cors
-npm start
-flask run
+pip install flask<br/>
+pip install flask-cors<br/>
+npm start<br/>
+flask run<br/>
