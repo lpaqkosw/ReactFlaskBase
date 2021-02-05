@@ -11,6 +11,7 @@ cors = CORS(app, resources={
     })
 
 
+## react에서 localhost:5000에 요청을 보내면 data를 return한다.
 @app.route('/')
 def hello_world():
     data = {
@@ -20,6 +21,7 @@ def hello_world():
     }
     return data
 
+## react에서 localhost:5000/ex에 요청을 보내면 data를 return한다.
 @app.route('/ex')
 def ex():
     data = {
